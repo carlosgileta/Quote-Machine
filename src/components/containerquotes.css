@@ -1,0 +1,59 @@
+
+.App {
+    height: 100vh;
+    background-color: var(--color);
+   display: flex;
+   justify-content: center;
+  align-items: center;
+  }
+  
+.containerQuotes{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 350px;
+    padding: auto;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    height: 200px;
+  
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+    width: 100%;
+    height: 55px;
+  
+}
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30%;
+    border-radius: 0 0 25px 25px;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    /* margin-left: 45px;
+    margin-bottom: 35px; */
+    border-radius: 6px;
+    /* align-self: flex-end; */
+}
+
